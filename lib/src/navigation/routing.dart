@@ -14,7 +14,7 @@ abstract class Routing {
     Animation<double> anim, 
     Animation<double> secondAnim, 
     child, {
-      TransitionType? transitionType,
+      TransitionType transitionType,
     }
   ) {
 
@@ -49,7 +49,7 @@ abstract class Routing {
     }
   }
 
-  Route? onGenerateRoute(RouteSettings routerSettings) {
+  Route onGenerateRoute(RouteSettings routerSettings) {
     var routerName = routerSettings.name;
     var routerArgs = routerSettings.arguments;
 

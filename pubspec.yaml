@@ -1,10 +1,10 @@
 name: basis
 description: A package for scaffolding Flutter apps basis
-version: 1.0.0
+version: 1.0.0-legacy
 homepage:
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.10.0 <3.0.0"
   flutter:
 
 dependencies:
